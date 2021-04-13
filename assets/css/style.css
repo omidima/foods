@@ -20,6 +20,16 @@
         url('../../assets/fonts/medium.ttf') format('truetype');
         }
 
+        select#item {
+            width: 100%;
+            border-radius: 50px;
+            border: 0;
+            height: 50px;
+            padding-right: 20px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
 
 .header {
     text-align: right;
