@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fa-ir" dir="rtl">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>غذاساز ایزانی</title>
+	<link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body onload="createItem()">
+	<div class="cont">
+		<div class="box">
+			<div class="header">
+				<h2>چطوری جون دل :)</h2>
+				<p>بازم که نمیدونی <span id="time">ناهار</span> چی درست کنی<br>
+				حالا وقت انتخابه!
+				</p>
+			</div>
+			<div class="body">
+				<select id="item" onchange="selectLicener(this)">
+				</select>
+			</div>
+			<div class="footer">
+				<p>غذایی که میتونی درست کنی: <br><span id="result">فعلا هیچی!!</span> </p>
+				<p 	id="retry" 
+					onclick="selectLicener(document.getElementById('item'))"
+					style="display: none;"
+					>یکی دیگه بگو :(</p>
+			</div>
+		</div>
+	</div>
+	<script src="./assets/js/js.js"></script>
+</body>
+</html>
