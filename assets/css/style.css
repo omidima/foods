@@ -1,31 +1,24 @@
-@font-face{font-family:Sans;font-style:normal;font-weight:bold;src:url('http://rozup.ir/view/2787325/IRANSansWeb(FaNum)_Bold.eot');src:url('http://rozup.ir/view/2787325/IRANSansWeb(FaNum)_Bold.eot?#iefix') format('embedded-opentype'),
-url('rozup.ir/view/2787327/IRANSansWebFaNum_Bold.woff') format('woff'),
-url('http://rozup.ir/view/2787326/IRANSansWeb(FaNum)_Bold.ttf') format('truetype');}
-@font-face{font-family:Sans;font-style:normal;font-weight:500;src:url('http://rozup.ir/view/2787328/IRANSansWebFaNum_Medium.eot');src:url('http://rozup.ir/view/2787328/IRANSansWebFaNum_Medium.eot?#iefix') format('embedded-opentype'),
-url('http://rozup.ir/view/2787330/IRANSansWebFaNum_Medium.woff') format('woff'),
-url('http://rozup.ir/view/2787329/IRANSansWeb(FaNum)_Medium.ttf') format('truetype');}
-@font-face{font-family:Sans;font-style:normal;font-weight:normal;src:url('http://rozup.ir/view/2787331/IRANSansWeb(FaNum)_UltraLight.eot');src:url('http://rozup.ir/view/2787331/IRANSansWeb(FaNum)_UltraLight.eot?#iefix') format('embedded-opentype'),
-url('http://rozup.ir/view/2787333/IRANSansWebFaNum_UltraLight.woff') format('woff'),
-url('http://rozup.ir/view/2787332/IRANSansWeb(FaNum)_UltraLight.ttf') format('truetype');}
-
-@font-face{font-family:'satsh';src:url('http://rozup.ir/view/2861219/satsh.eot?95gp1e');src:url('http://rozup.ir/view/2861219/satsh.eot?95gp1e#iefix') format('embedded-opentype'),
-url('http://rozup.ir/view/2861222/stsh.ttf?95gp1e') format('truetype'),
-url('http://rozup.ir/view/2861221/satsh.woff?95gp1e') format('woff'),
-url('http://rozup.ir/download/2861220/satsh.svg?95gp1e#satsh') format('svg');font-weight:normal;font-style:normal;}
-
-@font-face{font-family:tahoma;font-style:normal;font-weight:500;src:url('http://rozup.ir/view/2787328/IRANSansWebFaNum_Medium.eot');src:url('http://rozup.ir/view/2787328/IRANSansWebFaNum_Medium.eot?#iefix') format('embedded-opentype'),
-url('http://rozup.ir/view/2787330/IRANSansWebFaNum_Medium.woff') format('woff'),
-url('http://rozup.ir/view/2787329/IRANSansWeb(FaNum)_Medium.ttf') format('truetype');}
-[class^="icon-"], [class*=" icon-"]{font-family:'satsh' !important;speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;}
-select#item {
-    width: 100%;
-    border-radius: 50px;
-    border: 0;
-    height: 50px;
-    padding-right: 20px;
-    font-size: 14px;
-    font-weight: bold;
-}
+@font-face{
+    font-family:Sans;
+    font-style:normal;
+    font-weight:bold;
+    src:url('./assets/fonts/bold.woff') format('woff'),
+        url('./assets/fonts/bold.ttf') format('truetype');
+    }
+@font-face{
+    font-family:Sans;
+    font-style:normal;
+    font-weight:500;
+    src:url('./assets/fonts/light.woff') format('woff'),
+        url('./assets/fonts/light.ttf') format('truetype');
+        }
+@font-face{
+    font-family:Sans;
+    font-style:normal;
+    font-weight:normal;
+    src:url('./assets/fonts/medium.woff') format('woff'),
+        url('./assets/fonts/medium.ttf') format('truetype');
+        }
 
 
 .header {
