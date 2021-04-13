@@ -2,22 +2,22 @@
     font-family:Sans;
     font-style:normal;
     font-weight:bold;
-    src:url('./assets/fonts/bold.woff') format('woff'),
-        url('./assets/fonts/bold.ttf') format('truetype');
+    src:url('../../assets/fonts/bold.woff') format('woff'),
+        url('../../assets/fonts/bold.ttf') format('truetype');
     }
 @font-face{
     font-family:Sans;
     font-style:normal;
     font-weight:500;
-    src:url('./assets/fonts/light.woff') format('woff'),
-        url('./assets/fonts/light.ttf') format('truetype');
+    src:url('../../assets/fonts/light.woff') format('woff'),
+        url('../../assets/fonts/light.ttf') format('truetype');
         }
 @font-face{
     font-family:Sans;
     font-style:normal;
     font-weight:normal;
-    src:url('./assets/fonts/medium.woff') format('woff'),
-        url('./assets/fonts/medium.ttf') format('truetype');
+    src:url('../../assets/fonts/medium.woff') format('woff'),
+        url('../../assets/fonts/medium.ttf') format('truetype');
         }
 
 
